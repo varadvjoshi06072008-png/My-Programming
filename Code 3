@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+//While giving vakue to the variable I should always declare it before the next process otherwise it can throw errors.
+int A, B, C, D;
+// this advance declaration method can work very well to avoid futher confusions.
+int A= 22;
+int B= A;
+int C= A+B;
+// this can be valid statement.
+int A+B=C
+int A=B=C;
+/'these are wrong formats where you will not be able to process the code and error will occur.
+These codes gives value to the variable and also takes value from the variable.'\
+Return 0;
+}
