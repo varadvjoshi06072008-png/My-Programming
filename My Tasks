@@ -13,3 +13,14 @@ printf("average of 3 digit is=%d", average);
 return 0;
 }
 # 2
+#include<stdio.h>
+int main(){
+  int A;
+  printf("Enter your grade\n");
+  scanf("%d", &A);
+if(A>=1, A<=25)printf("Fail");
+else if(A>=26, A<=50)printf("average student");
+else if(A>=51, A<=65)printf("Can do better");
+else printf("Pass you deverve award from varad");
+
+}
