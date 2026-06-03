@@ -1,0 +1,15 @@
+# 1
+#include<stdio.h>
+int main(){
+int A, B, C;
+printf("Enter number");
+scanf("%d", &A);
+printf("Enter number");
+scanf("%d", &B);
+printf("Enter number");
+scanf("%d", &C);
+int average=(A+B+C)/3;
+printf("average of 3 digit is=%d", average);
+return 0;
+}
+# 2
