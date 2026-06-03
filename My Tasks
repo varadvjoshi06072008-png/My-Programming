@@ -24,3 +24,12 @@ else if(A>=51, A<=65)printf("Can do better");
 else printf("Pass you deverve award from varad");
 
 }
+#3
+#include<stdio.h>
+int main(){
+  int A;
+  printf("Enter Your Number\n");
+  scanf("%d", &A);
+  if(A%2==0)printf("You are even");
+  else printf("you are odd");
+}
