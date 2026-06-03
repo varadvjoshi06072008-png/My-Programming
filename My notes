@@ -2,4 +2,4 @@
 For finding the even or odd number directly try to find the modulo of it using 2
 For finding divisible number you should take statements from the user with scanf and then add the modulo with the number you
 want to find the divisible of
- 
+ // Add brackets to make sure which part should be counted firstly and which should be counted after that
