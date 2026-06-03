@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+int A=9, B=3, C=9, D=5;
+printf("Your Value is %d \n", A==C);
+// == is used to declare the value without giving that value to the other variable
+printf("Your Value is %d \n", A==B);
+printf("Your Value is %d \n", A!=C);
+// ! is used declare that the value is not what it is typed by the coder/programmer
+printf("Your Value is %d \n", A>=C);
+// >= and < is used to declare the value that it is greater than other value
+printf("Your Value is %d \n", B<=D);
+// <= and < is used to declare that value is smaller than other value
+printf("Your value is %d \n", A==C && B==D);
+// for the && operators we need just 1 flase and it will show all are false
+printf("Your Value is %d\n ", A>=C || A<=D);
+// for the || operators there should be 1 true term and it will show true output
+}
+// While programming you can type the numbers of alphabets as an output if you declare variable as X
