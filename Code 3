@@ -10,6 +10,7 @@ int C= A+B;
 int A+B=C
 int A=B=C;
 /'these are wrong formats where you will not be able to process the code and error will occur.
-These codes gives value to the variable and also takes value from the variable.'\
+These codes gives value to the variable and also takes value from the variable.
+for finding the number that it is divisible by and "X" number you have to use number from the user and number that needs to find divisible of'\
 Return 0;
 }
