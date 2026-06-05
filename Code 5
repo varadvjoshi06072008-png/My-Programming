@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+ char Student;
+ printf("enter student name");
+ scanf("%c", &Student);
+//use curly brackets after switch only never use curly brackets after every case just after switch
+ switch(Student){
+    case 'A': printf("Samruddhi");
+    break;
+    case 'B': printf("Shila");
+    break;
+    case 'C' : printf("sundari");
+    break;
+//just like if-else make sure you need to add default to give a unneeded feedback a name
+    default: printf("not a valid name");
+ }
+}
