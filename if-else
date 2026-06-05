@@ -1,0 +1,25 @@
+  #include<stdio.h>
+int main(){
+    int Marks;
+    printf("Enter Marks\n");
+    scanf("%d", &Marks);
+    if(Marks>=0 && Marks<=30){
+        printf("failed\n");
+        if(Marks==30){
+            printf("can do better next time\n");
+        }
+    }else if(Marks>30 && Marks <=50 ){
+        printf("you are passed with c grade\n");
+        if(Marks==50){
+            printf("you are missed by 1 mark\n");
+        }
+       } else if(Marks>50 && Marks<=75){
+        printf("you are doing good\n");
+        }
+        else if (Marks>75 && Marks<=100){
+            printf("marks are chill\n you should also chill my brother");
+        }
+else{
+    printf("Jyada Shana ban rya ke");
+}
+}
