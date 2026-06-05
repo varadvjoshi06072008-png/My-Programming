@@ -15,3 +15,5 @@ int main(){
     default: printf("not a valid name");
  }
 }
+// using switch alongside with if-else is best experience and I am enjoying it very much more than
+//maths and all
