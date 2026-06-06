@@ -5,3 +5,6 @@
 For finding divisible number you should take statements from the user with scanf and then add the modulo with the number you want to find the divisible of.
 
 // Add brackets to make sure which part should be counted firstly and which should be counted after that
+
+while looking for defined value for loop is better;
+and for taking value from user using while loop is preferred
