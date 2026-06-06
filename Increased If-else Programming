@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int Marks;
+    printf("Enter Marks");
+    scanf("%d", &Marks);
+    if(Marks<=30){
+        printf("pass");
+        if(Marks==30){
+            printf("you are graced\n");
+        }
+    }
+    else if(Marks>30){
+        printf("You passed perfectly\n");
+        if(Marks>=90){
+            printf("you are passed perfectly than ever\n");
+        }
+    } 
+    else {
+        printf("you are not good\n");
+    }
+}
