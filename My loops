@@ -11,3 +11,18 @@ int main()
         }
     }
 }
+# 2
+#include <stdio.h>
+int main()
+{
+    for(;;){
+        int i;
+        printf("enter your submission");
+        scanf("%d", &i);
+        if(i % 7 == 0){
+            printf("multiple of seven");
+            break;
+        }
+    }
+}
+# 3
