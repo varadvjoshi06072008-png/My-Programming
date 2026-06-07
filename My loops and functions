@@ -42,4 +42,23 @@ int main(){
 printhello();
 printhello();
 }
-
+# 4
+#include<stdio.h>
+void namaste(){
+    printf("namaste");
+};
+void bonjour(){
+    printf("bonjour");
+}
+int main(){
+    char i;
+    printf("enter f or i\n");
+    scanf("%c" , &i);
+    if( i=='F'){
+        bonjour();
+    }
+    else{
+       
+        namaste();
+    }
+}
