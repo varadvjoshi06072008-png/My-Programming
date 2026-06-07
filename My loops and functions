@@ -26,3 +26,20 @@ int main()
     }
 }
 # 3
+#include<stdio.h>
+void printbye(){
+    printf("bye\n");
+
+}
+void printhello(){
+    int i=1;
+    while(i<=10){
+    printf("hello\n");
+    i++;
+}}
+
+int main(){
+printhello();
+printhello();
+}
+
