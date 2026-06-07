@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    for(;;){
+        int i;
+        printf("enter your submission");
+        scanf("%d", &i);
+        if(i % 2 != 0){
+            printf("you entered odd number");
+            break;
+        }
+    }
+}
