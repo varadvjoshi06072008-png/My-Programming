@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int I=12;
+    int *tr= &I;
+    int **ptr= &tr;
+    printf("%d\n", **ptr);
+}#include<stdio.h>
+int main(){
+    int I=12;
+    int *tr= &I;
+    int **ptr= &tr;
+    printf("%d\n", **ptr);
+}
