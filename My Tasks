@@ -67,3 +67,32 @@ int main(){
         printf("you are not good\n");
     }
 }
+# 6
+#include<stdio.h>
+void Product(int A, int B);
+void Sum(int A, int B);
+void Averages(float *A, float *B, float *Average);
+int main(){
+    int A=20;
+    int B=20;
+    float Average;
+    float G=12;
+    float N=34;
+    Sum(A, B);
+    Product( A, B);
+    Averages(&G, &N, &Average);
+    printf("%f\n", Average);
+
+
+}
+void Product(int A, int B){
+  A = A * B ;
+    printf("%d\n", A);
+}
+void Sum(int A, int B){
+    int sum = A+B;
+    printf("%d\n", sum);
+}
+void Averages(float *G, float *N, float *Average){
+*Average=*N+*G/2;
+}
