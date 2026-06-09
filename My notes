@@ -9,3 +9,5 @@ For finding divisible number you should take statements from the user with scanf
 while looking for defined value for loop is better;
 and for taking value from user using while loop is preferred
 for starting every output use int main for every funtion
+Struggling a little with funtions and recursion.
+made sure to develop my pointers.
