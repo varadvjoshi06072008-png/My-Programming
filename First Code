@@ -1,0 +1,6 @@
+print("hello world")
+age = 17
+name = "varad"
+print("my name is", name)
+print("my age is", age)
+
