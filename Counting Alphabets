@@ -1,0 +1,18 @@
+#include<stdio.h>
+int count(char And[]);
+int main(){
+    char And[20];
+    fgets(And,8,stdin);
+    printf("%d", count(And));
+}
+int count(char And[]){
+    int count=0;
+    for(int i=0;And[i]!='\0' ;i++){
+        if(And[i]=='a'){
+            count=count+1;
+     
+        
+    }
+
+}
+return count;}
