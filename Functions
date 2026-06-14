@@ -1,0 +1,28 @@
+#include<stdio.h>
+int bigger(int A, int B){
+if(A>B){
+    printf("%d is bigger\n", A);
+
+}else if(A==B){
+    printf("Same numbers\n");
+}
+else{
+    printf("%d is bigger\n", B);
+}}
+int smaller(int A, int B){
+    if(A<B){
+        printf("%d is smaller\n", A);
+    }
+    else if(A>B){
+    printf("%d is smaller\n", B);
+}
+else{
+    printf("Same numbers\n");
+}
+}
+int main(){
+    int A=3;
+    int B=33;
+    bigger(A,B);
+    smaller(A,B);
+}
