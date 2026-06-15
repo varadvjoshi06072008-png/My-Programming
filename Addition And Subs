@@ -1,16 +1,35 @@
-#include<stdio.h>
-int main(){
-//While giving vakue to the variable I should always declare it before the next process otherwise it can throw errors.
-int A, B, C, D;
-// this advance declaration method can work very well to avoid futher confusions.
-int A= 22;
-int B= A;
-int C= A+B;
-// this can be valid statement.
-int A+B=C
-int A=B=C;
-/'these are wrong formats where you will not be able to process the code and error will occur.
-These codes gives value to the variable and also takes value from the variable.
-for finding the number that it is divisible by and "X" number you have to use number from the user and number that needs to find divisible of'\
-Return 0;
+#include <stdio.h>
+
+int main() {
+    // Variables should be declared before using them.
+    int A, B, C, D;
+
+    // Assigning values to variables.
+    A = 22;
+    B = A;
+    C = A + B;
+
+    // Valid statements:
+    printf("A = %d\n", A);
+    printf("B = %d\n", B);
+    printf("C = %d\n", C);
+
+    /*
+    Wrong statements:
+
+    A + B = C;   // Expression cannot be assigned a value.
+    A = B = C;   // This is actually valid in C, but it assigns
+                 // the value of C to both B and A.
+
+    Variables can store values and can also be used in expressions.
+
+    To check whether a number is divisible by another number,
+    take both numbers from the user and use the modulus (%) operator.
+
+    Example:
+    If (num % divisor == 0)
+        The number is divisible.
+    */
+
+    return 0;
 }
