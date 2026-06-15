@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+//1st Library function(length count).
+char A[]="my name is varad";
+char B[]="My Name is Varad";
+strcpy(A, B);
+puts(A);
+
+//2nd
+char C="This is length";
+int Length= strlen(C);
+printf("%d", Length);
+//3rd
+int D="Varad";
+int E="Joshi ";
+strcat(D, E);
+puts(D);
+// 4th
+char F[]="Banana";
+char G=[]="Garlic";
+strcmp(F, G);
