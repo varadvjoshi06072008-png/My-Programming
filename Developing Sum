@@ -1,10 +1,15 @@
-#include<stdio.h>
-int main(){
-int A, B, C, D;
-printf("Enter Your Numbers for Addition\n");
-scanf("%d %d %d %d", &A, &B, &C, &D);
-//Explain the variable before providing values to it
-int Sum= A+B+C+D;
-printf("Your Calculations Are=%d", Sum);
-return 0;
+#include <stdio.h>
+
+int main() {
+    int A, B, C, D;
+
+    printf("Enter four numbers for addition:\n");
+    scanf("%d %d %d %d", &A, &B, &C, &D);
+
+    // Calculate the sum of all four numbers
+    int Sum = A + B + C + D;
+
+    printf("Your calculation is = %d\n", Sum);
+
+    return 0;
 }
