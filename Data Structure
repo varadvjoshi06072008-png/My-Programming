@@ -14,5 +14,5 @@ i1.percentage= 10.12;
 
 printf(" Aadhar num is %d\n ", i1.Aadhar);
 printf(" Name is %s\n", i1.Name);
-printf("percentage is %f\n", i1.percentage);
+printf("percentage1.percentage);
 }
