@@ -1,6 +1,6 @@
 //Syntax of the Data Structure
 #include<stdio.h>
-#include<strg.h>
+#include<string.h>
 struct information{
 char Name[100];
 int Aadhar;
