@@ -1,10 +1,10 @@
 //Syntax of the Data Structure
 #include<stdio.h>
-#include<string.h>
+#include<strg.h>
 struct information{
 char Name[100];
 int Aadhar;
-float percentage
+float percentage;
 };
 int main(){
 struct information i1;
