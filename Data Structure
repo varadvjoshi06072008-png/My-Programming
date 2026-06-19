@@ -16,3 +16,41 @@ printf(" Aadhar num is %d\n ", i1.Aadhar);
 printf(" Name is %s\n", i1.Name);
 printf("percentage is %f\n", i1.percentage);
 }
+//#2..
+#include<stdio.h>
+#include<string.h>
+struct information{
+int Number;
+char name[30];
+float percentage;
+char grade;
+};
+int main(){
+struct information Bala;
+Bala.Number = 123;
+strcpy(Bala.name, "Raghav Joshi");
+Bala.percentage= 98.10;
+Bala.grade= 'A';
+
+printf("%s\n", Bala.name);
+printf("%d\n", Bala.Number);
+printf("%f\n", Bala.percentage);
+printf("%c\n", Bala.grade);
+}
+//#3
+#include<stdio.h>
+#include<string.h>
+struct inform{
+    int Digital_ID;
+    char Role[20];
+    float CGPA;
+};
+int main(){
+    struct inform ID_1;
+    ID_1.Digital_ID= 1020;
+    strcpy(ID_1.Role, "Product Manager");
+    ID_1.CGPA=10.00;
+    printf("%d\n", ID_1.Digital_ID);
+    printf("%s\n", ID_1.Role);
+    printf("%f\n", ID_1.CGPA);
+    }
