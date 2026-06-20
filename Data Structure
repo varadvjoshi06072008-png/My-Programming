@@ -68,3 +68,20 @@ int main(){
     ptr=&v1;
     printf("values are pointers are %s",(*ptr).C );
 }
+//#5
+#include<stdio.h>
+struct value{
+    int A;
+    float B;
+    char C[50];
+};
+void printvalue(struct value V1);
+int main(){
+    struct value V1={100, 10.33, "Null"};
+    printvalue(V1);
+}
+void printvalue(struct value V1){
+    printf("Value 1 is %d\n", V1.A);
+    printf("Value 2 is %f\n", V1.B);
+    printf("Value 3 is %s\n", V1.C);
+}
