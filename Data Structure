@@ -54,3 +54,17 @@ int main(){
     printf("%s\n", ID_1.Role);
     printf("%f\n", ID_1.CGPA);
     }
+//#4
+#include<stdio.h>
+struct values{
+    int A;
+    float B;
+    char C[100];
+};
+int main(){
+    struct values v1={100, 10.35, "Null"};
+    printf("Values are %d \n %f \n %s\n",v1.A, v1.B, v1.C );
+    struct values *ptr;
+    ptr=&v1;
+    printf("values are pointers are %s",(*ptr).C );
+}
