@@ -1,0 +1,30 @@
+// creating better files
+#include <stdio.h>
+typedef struct student{
+    int id;
+    char name[100];
+    float marks;
+}stu;
+int main(){
+    stu s1;
+    stu s2;
+    stu s3;
+    stu s4;
+    stu s5;
+    printf("enter 1st student details\n");
+    scanf("%d %s %f", &s1.id, s1.name, &s1.marks );
+    printf("enter 2nd student details\n");
+    scanf("%d %s %f", &s2.id,s2.name,&s2.marks);
+    printf("enter 3rd student details\n");
+    scanf("%d %s %f", &s3.id, s3.name, &s3.marks);
+    printf("enter 1st student details\n");
+    scanf(" %d %s %f", &s4.id, s4.name, &s4.marks );
+        printf("enter 1st student details\n");
+    scanf(" %d %s %f", &s5.id, s5.name, &s5.marks );
+    if(s1.marks>s2.marks && s1.marks>s3.marks && s1.marks>s4.marks && s1.marks>s5.marks ){
+        printf("1st is better");
+        
+    }
+    else{
+        printf("needs improvement");
+    }}
